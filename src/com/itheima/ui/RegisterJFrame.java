@@ -170,7 +170,7 @@ public class RegisterJFrame extends JFrame implements MouseListener {
                 new LoginJFrame();
             }else{
                 System.out.println("用户名已存在");
-                showJDialog("你已经注册了，你个憨批...");
+                showJDialog("你已经注册了，憨批...");
             }
         }else if(e.getSource() == reset){
             System.out.println("点击了重置按钮");
