@@ -13,6 +13,8 @@ pie
 gantt
     title 课程时间分配对比
     dateFormat  HH:mm
+    section 课前准备
+    进阶课程需提前1天确认学员名单，准备染料、布料及工具包。:b1, 00:00, 360m
     section DIY体验课
     理论讲解       :a1, 00:00, 30m
     实操指导       :a2, after a1, 60m
