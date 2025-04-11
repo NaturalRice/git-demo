@@ -99,12 +99,33 @@ flowchart TD
 7. **设备管理甘特图**
 ```mermaid
 gantt
-    title 设备维护周期
+    title 设备维护周期甘特图
     dateFormat  YYYY-MM-DD
-    section 染色设备
-    每周检查 :done, des1, 2023-01-01, 2023-12-31
+    axisFormat  %m-%d
+    section 染色工具
+    不锈钢煮锅检查    :active, des1, 2023-06-01, 7d
+    恒温染色槽校准    :crit, des2, 2023-06-05, 3d
     section 教学设备
-    每月清洁 :active, des2, 2023-01-01, 2023-12-31
+    投影仪维护       :des3, 2023-06-01, 5d
+    空调滤网清洁     :des4, after des3, 30d
+    section 安全管控
+    温湿度系统检测   :des5, 2023-06-10, 2d
+    防火设施演练     :des6, 2023-06-15, 1d
+```
+
+```mermaid
+flowchart TB
+    subgraph 设备管理策略
+        A[核心设备清单] --> B[维护措施]
+        A --> C[安全管控]
+        
+        B --> D["<b>日常维护</b>\n• 染色工具：周检\n• 教学设备：月检"]
+        C --> E["<b>安全标准</b>\n• 温湿度监控(≤30℃/60%RH)\n• 防火防潮设施"]
+        
+        style A fill:#e6f3ff,stroke:#3399ff
+        style D fill:#e6ffe6,stroke:#33cc33
+        style E fill:#ffe6e6,stroke:#ff3333
+    end
 ```
 
 8. **成本控制策略图**
