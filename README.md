@@ -42,6 +42,7 @@ flowchart LR
 ```mermaid
 flowchart TB
     subgraph 会员体系
+        direction TB
         A[年费50港元] --> B["权益：享复购9折、新品优先购、积分机制"]
         B --> C
         A --> C["积分规则：消费1港元=1积分"]
@@ -49,6 +50,7 @@ flowchart TB
         C --> E["5000积分兑换限量版蓝染围巾"]
     end
     subgraph 节气营销
+        direction LR
         F["二十四节气植物染：植物生长与二十四节气息息相关，以“冬至”为始，以“大雪”为终，生生不息，周而复始。"] --> G["根据不同节气相对应的植物，推出不同种类的产品。"]
     end
     style 会员体系 fill:#f0f4c3,stroke:#cddc39
