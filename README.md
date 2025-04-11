@@ -29,10 +29,10 @@ flowchart LR
 ```mermaid
 flowchart LR
     subgraph 线下
-        A[PMQ元创坊实体店\n"沉浸式文化空间"]
+        A[PMQ元创坊实体店<br>"沉浸式文化空间"]
     end
     subgraph 线上
-        B["电商双平台\nEtsy Hong Kong | Ztore"]
+        B[电商双平台<br>Etsy Hong Kong | Ztore]
     end
     style 线下 fill:#f8bbd0,stroke:#e91e63
     style 线上 fill:#b3e5fc,stroke:#03a9f4
