@@ -14,9 +14,6 @@ mindmap
         ["◉ 价格：398元\n◉ 时长：4小时\n◉ 内容：\n - 3种扎染技法\n - 2件作品制作"]
       进阶课程
         ["◉ 价格：2999元\n◉ 认证：非遗联盟入库\n◉ 模块：\n 染料建缸/5种复合技法"]
-    style root fill:#f0f9e9
-    style 植染物语IP fill:#e3f2fd
-    style 课程体系 fill:#ffebee
 ```
 
 ### 4.2 定价策略对比表
