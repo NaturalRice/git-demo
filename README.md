@@ -19,8 +19,8 @@ mindmap
 ### 4.2 定价策略对比表
 ```mermaid
 flowchart LR
-    A[竞品分析] --> B["THE WORLD IS YOURS\nT恤600-800港元"]
-    A --> C["本品牌定价\nT恤600港元"]
+    A[竞品分析] --> B["THE WORLD IS YOURS（香港本土植物染品牌）T恤定价600-800港元"]
+    A --> C["本品牌定价：T恤600港元"]
     style B fill:#ffe0b2,stroke:#ff9800
     style C fill:#c8e6c9,stroke:#4caf50
 ```
@@ -28,14 +28,14 @@ flowchart LR
 ### 4.3 渠道策略矩阵
 ```mermaid
 flowchart LR
-    subgraph 线下渠道-核心体验店
-        A[PMQ元创坊实体店，"沉浸式文化空间"]
+    subgraph 线下
+        A[PMQ元创坊实体店\n"沉浸式文化空间"]
     end
-    subgraph 线上渠道
-        B["电商双平台：Etsy Hong Kong，Ztore（住好啲）"]
+    subgraph 线上
+        B["电商双平台\nEtsy Hong Kong | Ztore"]
     end
-    style 线下渠道-核心体验店 fill:#f8bbd0,stroke:#e91e63
-    style 线上渠道 fill:#b3e5fc,stroke:#03a9f4
+    style 线下 fill:#f8bbd0,stroke:#e91e63
+    style 线上 fill:#b3e5fc,stroke:#03a9f4
 ```
 
 ### 4.4 促销策略组合图
