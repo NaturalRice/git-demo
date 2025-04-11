@@ -34,8 +34,8 @@ flowchart LR
     subgraph 线上渠道
         B["电商双平台：Etsy Hong Kong，Ztore（住好啲）"]
     end
-    style 线下 fill:#f8bbd0,stroke:#e91e63
-    style 线上 fill:#b3e5fc,stroke:#03a9f4
+    style 线下渠道-核心体验店 fill:#f8bbd0,stroke:#e91e63
+    style 线上渠道 fill:#b3e5fc,stroke:#03a9f4
 ```
 
 ### 4.4 促销策略组合图
